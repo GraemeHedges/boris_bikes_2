@@ -50,9 +50,13 @@ NameError (uninitialized constant DockingStation)
 ````
 
 Type of error: NameError
+
 File Path where error happened: /Users/Student/.rvm/rubies/ruby-3.0.0/lib/ruby/gems/3.0.0/gems/irb-1.3.0/exe/irb:11:in
+
 Line number of error: 1
+
 Use Ruby Docs to find out what the error means (link): https://ruby-doc.org/core-2.2.0/NameError.html
+
 Suggest one way of solving the error: Make the class
 
 
@@ -64,7 +68,7 @@ Guide to setting up a new project
 3) do rspec --init in the folder ( this will create the spec folder, spec helper file.)
 4) make your actual test file, always make sure to called it _spec.rb at the end otherwise it wont work)
 5) make a lib folder for code files
-
+```
    Project_folder
     |
     |--- lib
@@ -74,5 +78,5 @@ Guide to setting up a new project
     |--- spec
            |
            |-- code_files_spec.rb
-
+```
 6) 
