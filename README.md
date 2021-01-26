@@ -63,3 +63,16 @@ Guide to setting up a new project
 2) clone this and copy it to your machine in to a folder.
 3) do rspec --init in the folder ( this will create the spec folder, spec helper file.)
 4) make your actual test file, always make sure to called it _spec.rb at the end otherwise it wont work)
+5) make a lib folder for code files
+
+   Project_folder
+    |
+    |--- lib
+    |      |
+    |      |-- code_files.rb
+    |
+    |--- spec
+           |
+           |-- code_files_spec.rb
+
+6) 
