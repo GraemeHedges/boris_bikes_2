@@ -7,7 +7,7 @@ Bike  | condition (working?)
 Docking Station | release_a_bike
 
 
-
+```
                                 condition
                     PERSON <--------------------|
                                                 |  release_a_bike message
@@ -16,6 +16,10 @@ Docking Station | release_a_bike
                     BIKE <------------> DOCKING-STATION
                             release
                             condition
+```
 
+```
 Bike <-- working? --> true/false
+
 DockingStation <-- release_bike --> a Bike
+```
