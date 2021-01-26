@@ -55,3 +55,11 @@ Line number of error: 1
 Use Ruby Docs to find out what the error means (link): https://ruby-doc.org/core-2.2.0/NameError.html
 Suggest one way of solving the error: Make the class
 
+
+
+Guide to setting up a new project
+
+1) set up a new repo on github.
+2) clone this and copy it to your machine in to a folder.
+3) do rspec --init in the folder ( this will create the spec folder, spec helper file.)
+4) make your actual test file, always make sure to called it _spec.rb at the end otherwise it wont work)
